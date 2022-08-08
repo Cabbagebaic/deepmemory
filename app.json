@@ -1,0 +1,30 @@
+﻿{
+  "name": "memory",
+  "description": "memory",
+  "keywords": [
+    "vless"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "vmess or vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocketlj",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/Cabbagebaic/deepmemory",
+  "repository": "https://github.com/Cabbagebaic/deepmemory",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
